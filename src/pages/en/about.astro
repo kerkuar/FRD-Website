@@ -1,0 +1,61 @@
+---
+import Base from '@layouts/Base.astro';
+import PhotoFrame from '@components/PhotoFrame.astro';
+import { useTranslations, localizedPath } from '@i18n/utils';
+import { timeline } from '@/data/timeline';
+
+const lang = 'en' as const;
+const t = useTranslations(lang);
+---
+
+<Base title="About" lang={lang} description="The biography of Francesca Romana D'Antuono, co-president of Volt Europa.">
+  <article class="container-page pt-12 pb-20 md:pt-20">
+    <header class="mx-auto max-w-3xl">
+      <p class="eyebrow">{t('about.title')}</p>
+      <h1 class="mt-3 font-serif text-4xl leading-tight md:text-5xl">
+        {/* DRAFT — to be reviewed by FRD */}
+        From Vico Equense to Brussels, one choice at a time.
+      </h1>
+      <p class="mt-6 text-lg leading-relaxed text-ink-700">
+        I&rsquo;m Francesca Romana D&rsquo;Antuono. I was born in 1987 in Vico Equense, in Campania, and grew up in Rome. I now live in Berlin and work in European politics: since 2021 I&rsquo;ve been co-president of Volt Europa.
+      </p>
+    </header>
+
+    <div class="mx-auto mt-12 grid max-w-5xl gap-10 md:grid-cols-12 md:gap-14">
+      <div class="md:col-span-5">
+        <PhotoFrame src="/photos/portrait-about.jpg" alt="Francesca Romana D'Antuono" ratio="portrait" rounded="3xl" />
+        <p class="mt-3 text-xs text-ink-500">Photo: to be added.</p>
+      </div>
+
+      <div class="md:col-span-7 space-y-4 text-base leading-relaxed text-ink-800 [&_h2]:font-serif [&_h2]:text-2xl [&_h2]:mt-8 [&_h2]:mb-3 [&_h2]:text-ink-900">
+        <h2 class="font-serif">{t('about.section.percorso')}</h2>
+        <p>I graduated in Pharmacy from La Sapienza University in Rome, and continued my studies at the University of Geneva, where I trained in marketing, management and health policy. In the years that followed I worked in marketing for AstraZeneca in Milan, Menarini in Florence, and Berlin-Chemie in Berlin.</p>
+        <p>Between 2018 and 2019 I co-published two novels under the pen name Francesca Del Mar &mdash; &ldquo;Song of mourning&rdquo; and &ldquo;Song of leaving&rdquo;, written with Arianna Lanzuisi (Epokè). Writing and politics, for me, are the same gesture: trying to give shape to a world that would otherwise stay blurred.</p>
+        <p>I joined Volt Italia in 2019 during the European elections campaign, starting in the Florence group. A year later I was coordinating public relations for Volt Italia. In 2021, when I was elected co-president of Volt Europa, I paused my professional career to focus full-time on political activism. I was re-elected in 2023.</p>
+
+        <h2 class="font-serif">{t('about.section.oggi')}</h2>
+        <p>As co-president, I work to make Volt Europa an increasingly mature federalist movement: one that wins European elections, shifts EU policy, and trains a new generation of people who do politics rather than only suffer it. I led the 2024 European Parliament campaign. Between 2021 and today, we&rsquo;ve grown Volt&rsquo;s European representation from one to five MEPs and built an organisation that now operates across more than a dozen countries.</p>
+        <p>When I&rsquo;m not on the road, I&rsquo;m doing political training, building networks between civil-society organisations, and bringing community organising into places it hasn&rsquo;t reached yet. I run workshops, write, speak in public, and listen.</p>
+
+        <h2 class="font-serif">{t('about.section.valori')}</h2>
+        <p>I believe in a grown-up European democracy that is voted for as a real democracy &mdash; with transnational lists, voting at 16, and gender parity. I believe climate justice and social justice are the same struggle. I believe asylum policies must be grounded in treaties and human dignity, not in border outsourcing. I believe a serious European tax framework is the precondition for reducing inequality. And I believe politics is done with people, never for them.</p>
+      </div>
+    </div>
+
+    <section class="mx-auto mt-20 max-w-5xl">
+      <h2 class="font-serif text-3xl">{t('about.timeline.title')}</h2>
+      <ol class="mt-8 grid gap-px overflow-hidden rounded-2xl border border-ink-900/8 bg-ink-900/8">
+        {timeline.map((m) => (
+          <li class="grid grid-cols-[6rem_1fr] gap-6 bg-cream-50 px-5 py-4 md:px-7">
+            <span class="font-serif text-lg font-medium text-clay-700 tabular-nums">{m.year}</span>
+            <span class="text-ink-800">{m.en}</span>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <div class="mx-auto mt-16 max-w-3xl text-center">
+      <a class="btn-primary" href={localizedPath('contact', lang)}>{t('home.cta.button')}</a>
+    </div>
+  </article>
+</Base>

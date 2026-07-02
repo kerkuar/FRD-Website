@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Astro outputs trailing-slash-less URLs by default; keep redirects clean.
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+# Form handling note:
+# Netlify auto-detects forms in static HTML at build time. The ContactForm
+# component declares data-netlify="true" with a hidden form-name input, so
+# Netlify's post-processing step will pick it up automatically.

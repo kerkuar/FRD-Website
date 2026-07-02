@@ -1,0 +1,55 @@
+---
+import Base from '@layouts/Base.astro';
+import { useTranslations, localizedPath } from '@i18n/utils';
+import NewsletterSignup from '@components/NewsletterSignup.astro';
+import campaign from '@/data/campaign.json';
+
+const lang = 'en' as const;
+const t = useTranslations(lang);
+const support = campaign.support;
+---
+
+<Base title={t('participate.title')} lang={lang}>
+  <section class="container-page pt-12 pb-10 md:pt-20">
+    <span class="bar-accent" aria-hidden="true"></span>
+    <h1 class="mt-4 text-5xl md:text-7xl">{t('participate.title')}</h1>
+    <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-700">{t('participate.lead')}</p>
+  </section>
+
+  <section class="container-page pb-16">
+    <div class="grid gap-5 md:grid-cols-2">
+      <div class="card flex flex-col">
+        <p class="eyebrow">01</p>
+        <h2 class="mt-2 text-2xl">{t('participate.volunteer.title')}</h2>
+        <p class="mt-2 flex-1 text-ink-700">{t('participate.volunteer.body')}</p>
+        <div class="mt-5">
+          {support.volunteerUrl ? (
+            <a class="btn-primary" href={support.volunteerUrl} target="_blank" rel="noopener">{t('participate.volunteer.cta')}</a>
+          ) : (
+            <a class="btn-primary" href={localizedPath('contact', lang)}>{t('participate.volunteer.cta')}</a>
+          )}
+        </div>
+      </div>
+
+      <div class="card flex flex-col">
+        <p class="eyebrow">02</p>
+        <h2 class="mt-2 text-2xl">{t('participate.join.title')}</h2>
+        <p class="mt-2 flex-1 text-ink-700">{t('participate.join.body')}</p>
+        <div class="mt-5">
+          <a class="btn-outline" href={support.joinVoltUrl} target="_blank" rel="noopener">{t('participate.join.cta')}</a>
+        </div>
+      </div>
+    </div>
+
+    {support.donateUrl && (
+      <div class="card mt-5">
+        <p class="eyebrow">03</p>
+        <h2 class="mt-2 text-2xl">{t('participate.donate.title')}</h2>
+        <p class="mt-2 text-ink-700">{t('participate.donate.body')}</p>
+        <div class="mt-5"><a class="btn-gold" href={support.donateUrl} target="_blank" rel="noopener">{t('participate.donate.title')}</a></div>
+      </div>
+    )}
+  </section>
+
+  <NewsletterSignup lang={lang} />
+</Base>

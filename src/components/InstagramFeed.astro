@@ -1,0 +1,103 @@
+---
+/**
+ * Instagram preview block.
+ *
+ * For the first build we use a graceful, code-only fallback that matches the
+ * page design and links out to her account. To enable a *live* feed later,
+ * uncomment the embed branch below and pick ONE of these providers:
+ *
+ *  1. SnapWidget — easiest, free tier, no API access required.
+ *     https://snapwidget.com/embed/<WIDGET_ID>  (paste the iframe src)
+ *  2. Elfsight — paid, more design controls.
+ *  3. Instagram Basic Display API — official, but requires an FB developer
+ *     app + access token + token-refresh job. Heaviest option.
+ *
+ * Whichever you pick, drop the iframe URL into the WIDGET_SRC env var or
+ * hardcode it below, then flip USE_LIVE_EMBED to true.
+ */
+
+interface Props {
+  lang: 'it' | 'en';
+}
+const { lang } = Astro.props;
+
+const IG_HANDLE = 'francescaromana_dantuono';
+const IG_URL = 'https://www.instagram.com/francescaromana_dantuono';
+
+const USE_LIVE_EMBED = false;
+const WIDGET_SRC = ''; // e.g. 'https://snapwidget.com/embed/1234567'
+
+const placeholderTiles = [
+  { tag: lang === 'it' ? 'Volt Europa' : 'Volt Europa' },
+  { tag: lang === 'it' ? 'Bruxelles' : 'Brussels' },
+  { tag: lang === 'it' ? 'Campagna' : 'Campaign' },
+  { tag: lang === 'it' ? 'Talk' : 'Talk' },
+  { tag: lang === 'it' ? 'Manifesto' : 'Manifesto' },
+  { tag: lang === 'it' ? 'Squadra' : 'Team' },
+];
+---
+
+<div class="rounded-3xl border border-ink-900/8 bg-cream-100 p-6 sm:p-8">
+  <div class="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+    <div>
+      <p class="eyebrow">Instagram</p>
+      <p class="mt-1 font-serif text-2xl text-ink-900">@{IG_HANDLE}</p>
+    </div>
+    <a class="btn-outline" href={IG_URL} target="_blank" rel="noopener noreferrer">
+      {lang === 'it' ? 'Apri Instagram' : 'Open Instagram'} ↗
+    </a>
+  </div>
+
+  {USE_LIVE_EMBED && WIDGET_SRC ? (
+    <div class="mt-6 overflow-hidden rounded-2xl border border-ink-900/8">
+      <iframe
+        src={WIDGET_SRC}
+        class="h-[640px] w-full"
+        loading="lazy"
+        title="Instagram feed"
+        sandbox="allow-scripts allow-same-origin allow-popups"
+      ></iframe>
+    </div>
+  ) : (
+    <>
+      <ul class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {placeholderTiles.map((tile, i) => (
+          <li>
+            <a
+              href={IG_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group relative block aspect-square overflow-hidden rounded-2xl bg-cream-200"
+              aria-label={`${IG_HANDLE} — ${tile.tag}`}
+            >
+              <div class:list={[
+                'absolute inset-0 transition-transform group-hover:scale-105',
+                i % 3 === 0 ? 'bg-gradient-to-br from-clay-100 to-clay-300' :
+                i % 3 === 1 ? 'bg-gradient-to-br from-cream-200 to-clay-100' :
+                              'bg-gradient-to-br from-sage-100 to-cream-200',
+              ]}/>
+              <div class="absolute inset-x-3 bottom-3 flex items-center justify-between">
+                <span class="rounded-full bg-cream-50/85 px-2 py-1 text-[11px] font-medium text-ink-800">
+                  {tile.tag}
+                </span>
+                <span class="rounded-full bg-cream-50/85 p-1.5 text-ink-800">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="mt-4 text-xs text-ink-500">
+        <!-- DRAFT — to be reviewed by FRD -->
+        {lang === 'it'
+          ? 'Anteprima statica. Per attivare il feed live, vedi le note in src/components/InstagramFeed.astro.'
+          : 'Static preview. To enable the live feed, see the notes in src/components/InstagramFeed.astro.'}
+      </p>
+    </>
+  )}
+</div>

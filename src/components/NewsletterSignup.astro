@@ -1,0 +1,77 @@
+---
+/**
+ * Newsletter signup — the campaign's most important box.
+ *
+ * Delivery: Netlify Forms by default (submissions in Netlify dashboard → Forms
+ * → "newsletter"). To switch to Brevo: paste the Brevo form URL into
+ * src/data/campaign.json → newsletter.brevoFormAction. Nothing else changes.
+ */
+import { useTranslations, localizedPath } from '@i18n/utils';
+import type { Lang } from '@i18n/ui';
+import campaign from '@/data/campaign.json';
+
+interface Props {
+  lang: Lang;
+  /** "banner" = full-width purple block; "card" = compact card. */
+  variant?: 'banner' | 'card';
+}
+const { lang, variant = 'banner' } = Astro.props;
+const t = useTranslations(lang);
+
+const brevoAction = campaign.newsletter.brevoFormAction;
+const usesBrevo = brevoAction.length > 0;
+const successPath = `${localizedPath('home', lang)}?newsletter=ok`;
+---
+
+<section
+  id="newsletter"
+  class:list={[
+    variant === 'banner'
+      ? 'bg-clay-600 text-white'
+      : 'rounded-xl border-2 border-clay-600 bg-white text-ink-900 p-6',
+  ]}
+>
+  <div class:list={[variant === 'banner' ? 'container-page py-14 md:py-20' : '']}>
+    <div class="max-w-2xl">
+      <span class="bar-accent" aria-hidden="true"></span>
+      <h2 class:list={['mt-4 text-3xl md:text-5xl', variant === 'banner' ? 'text-white' : '']}>
+        {t('newsletter.title')}
+      </h2>
+      <p class:list={['mt-3 text-lg leading-relaxed', variant === 'banner' ? 'text-white/85' : 'text-ink-700']}>
+        {t('newsletter.body')}
+      </p>
+
+      <form
+        name="newsletter"
+        method="POST"
+        action={usesBrevo ? brevoAction : successPath}
+        data-netlify={usesBrevo ? undefined : 'true'}
+        netlify-honeypot={usesBrevo ? undefined : 'bot-field'}
+        class="mt-6 flex flex-col gap-3 sm:flex-row"
+      >
+        {!usesBrevo && <input type="hidden" name="form-name" value="newsletter" />}
+        {!usesBrevo && <p class="hidden"><label>Non compilare: <input name="bot-field" /></label></p>}
+        <label class="sr-only" for="newsletter-email">{t('newsletter.email')}</label>
+        <input
+          id="newsletter-email"
+          type="email"
+          name={usesBrevo ? 'EMAIL' : 'email'}
+          required
+          placeholder={t('newsletter.email')}
+          class:list={[
+            'w-full flex-1 rounded-md border-2 px-4 py-3 text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-sage-400',
+            variant === 'banner'
+              ? 'border-white/30 bg-white/10 text-white placeholder-white/60'
+              : 'border-ink-900/15 bg-cream-50 text-ink-900 placeholder-ink-500',
+          ]}
+        />
+        <button type="submit" class="btn-gold shrink-0">{t('newsletter.button')}</button>
+      </form>
+
+      <p class:list={['mt-3 text-xs', variant === 'banner' ? 'text-white/60' : 'text-ink-500']}>
+        {t('newsletter.privacy')}
+        <a href={localizedPath('privacy', lang)} class="underline underline-offset-2">Privacy</a>
+      </p>
+    </div>
+  </div>
+</section>

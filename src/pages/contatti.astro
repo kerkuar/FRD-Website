@@ -1,0 +1,68 @@
+---
+import Base from '@layouts/Base.astro';
+import ContactForm from '@components/ContactForm.astro';
+import { useTranslations } from '@i18n/utils';
+
+const lang = 'it' as const;
+const t = useTranslations(lang);
+
+const ok = Astro.url.searchParams.get('ok') === '1';
+---
+
+<Base title="Contatti" lang={lang} description="Scrivi a Francesca Romana D'Antuono.">
+  <section class="container-page pt-12 pb-20 md:pt-20">
+    <header class="mx-auto max-w-3xl">
+      <p class="eyebrow">{t('contact.title')}</p>
+      <h1 class="mt-3 font-serif text-4xl leading-tight md:text-5xl">{t('contact.title')}</h1>
+      <p class="mt-6 text-lg leading-relaxed text-ink-700">{t('contact.lead')}</p>
+    </header>
+
+    <div class="mx-auto mt-12 grid max-w-5xl gap-10 md:grid-cols-12">
+      <div class="md:col-span-7">
+        {ok ? (
+          <div class="rounded-2xl border border-sage-400/40 bg-sage-100/40 p-8">
+            <h2 class="font-serif text-2xl text-ink-900">{t('contact.success.title')}</h2>
+            <p class="mt-3 text-ink-700">{t('contact.success.body')}</p>
+          </div>
+        ) : (
+          <ContactForm lang={lang} />
+        )}
+      </div>
+
+      <aside class="md:col-span-5">
+        <div class="rounded-2xl border border-ink-900/8 bg-cream-100 p-6">
+          <h2 class="font-serif text-2xl">{t('contact.alt.title')}</h2>
+          <ul class="mt-4 space-y-2 text-sm">
+            <li>
+              <a class="link-underline" href="mailto:francescaromanadantuono.frd@gmail.com">
+                francescaromanadantuono.frd@gmail.com
+              </a>
+            </li>
+            <li>
+              <a class="link-underline" href="mailto:francescaromana.dantuono@volteuropa.org">
+                francescaromana.dantuono@volteuropa.org
+              </a>
+              <span class="block text-xs text-ink-500">(Volt Europa)</span>
+            </li>
+            <li class="pt-3">
+              <a class="link-underline" href="https://www.instagram.com/francescaromana_dantuono" target="_blank" rel="noopener">Instagram ↗</a>
+            </li>
+            <li>
+              <a class="link-underline" href="https://www.linkedin.com/in/thisisfrd/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </li>
+            <li>
+              <a class="link-underline" href="https://substack.com/@francescaromanadantuono" target="_blank" rel="noopener">Substack ↗</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-6 rounded-2xl border border-ink-900/8 bg-cream-50 p-6 text-sm text-ink-700">
+          <!-- DRAFT — to be reviewed by FRD -->
+          <p>
+            <strong>Inviti a eventi:</strong> per richiedere un mio intervento, indica data, luogo, formato (talk, panel, workshop) e pubblico atteso. L&rsquo;agenda è gestita personalmente: rispondo a tutti, ma con calma.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>

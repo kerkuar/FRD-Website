@@ -1,0 +1,44 @@
+---
+import Base from '@layouts/Base.astro';
+const lang = 'it' as const;
+const updated = '2 luglio 2026';
+---
+
+<Base title="Privacy policy" lang={lang} noindex={false}>
+  <section class="container-prose py-12 md:py-20">
+    <span class="bar-accent" aria-hidden="true"></span>
+    <h1 class="mt-4 text-4xl md:text-5xl">Privacy policy</h1>
+    <p class="mt-2 text-sm text-ink-500">Ultimo aggiornamento: {updated}</p>
+
+    <!-- DRAFT — bozza standard, da far verificare prima del lancio (soprattutto in vista di attività politica: i dati di chi segue una figura politica possono rivelare opinioni politiche, categoria particolare ex art. 9 GDPR). -->
+
+    <div class="prose-custom mt-8 space-y-6 text-ink-700 leading-relaxed">
+      <div>
+        <h2 class="text-xl text-ink-900">Titolare del trattamento</h2>
+        <p class="mt-2">Francesca Romana D’Antuono — contatto: francescaromanadantuono.frd@gmail.com</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">Quali dati raccogliamo e perché</h2>
+        <p class="mt-2"><strong>Modulo di contatto.</strong> Nome, email, organizzazione (facoltativa) e messaggio, usati esclusivamente per rispondere alla richiesta. I moduli sono gestiti da Netlify (hosting del sito); i dati non vengono ceduti a terzi né usati per altre finalità.</p>
+        <p class="mt-2"><strong>Newsletter.</strong> L’indirizzo email fornito con l’iscrizione è usato solo per inviare la newsletter. È possibile cancellarsi in qualsiasi momento con il link presente in ogni email o scrivendo al contatto sopra. La base giuridica è il consenso (art. 6.1.a GDPR), revocabile in ogni momento.</p>
+        <p class="mt-2"><strong>Statistiche di visita.</strong> Il sito usa (o userà) GoatCounter, uno strumento di statistica che non usa cookie e non traccia i visitatori individualmente: registra solo dati aggregati e anonimi (pagina visitata, paese, tipo di dispositivo). Per questo non è richiesto alcun banner di consenso.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">Cookie</h2>
+        <p class="mt-2">Questo sito non installa cookie di profilazione. I video incorporati usano YouTube in modalità «privacy avanzata» (youtube-nocookie.com), che non installa cookie finché non si avvia la riproduzione.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">Dove sono conservati i dati</h2>
+        <p class="mt-2">Il sito è ospitato su Netlify. I dati dei moduli restano nel pannello di gestione del sito e sono accessibili solo al titolare e alle persone che curano il sito per suo conto.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">I tuoi diritti</h2>
+        <p class="mt-2">Puoi chiedere in qualsiasi momento l’accesso, la rettifica o la cancellazione dei tuoi dati, oppure opporti al trattamento, scrivendo al contatto indicato sopra. Hai inoltre il diritto di presentare reclamo al Garante per la protezione dei dati personali (gpdp.it).</p>
+      </div>
+    </div>
+  </section>
+</Base>

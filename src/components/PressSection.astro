@@ -1,0 +1,47 @@
+---
+/**
+ * Press section: "Featured in" outlet strip + real headlines about FRD.
+ * All data comes from src/data/campaign.json → pressStrip / featuredPress.
+ */
+import { useTranslations } from '@i18n/utils';
+import type { Lang } from '@i18n/ui';
+import campaign from '@/data/campaign.json';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const outlets = campaign.pressStrip.outlets;
+const items = campaign.featuredPress.items;
+---
+
+{outlets.length > 0 && (
+  <section class="border-y-2 border-ink-900/10 bg-cream-100">
+    <div class="container-page py-8">
+      <p class="eyebrow text-center">{t('press.strip.title')}</p>
+      <ul class="mt-4 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
+        {outlets.map((o) => (
+          <li class="font-serif text-lg uppercase tracking-wide text-ink-600">{o}</li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+{items.length > 0 && (
+  <section class="container-page py-14 md:py-20">
+    <span class="bar-accent" aria-hidden="true"></span>
+    <h2 class="mt-4 text-3xl md:text-5xl">{t('press.title')}</h2>
+    <div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      {items.map((item) => (
+        <a href={item.url} target="_blank" rel="noopener" class="card group flex flex-col">
+          <p class="eyebrow">{item.outlet} · {item.date}</p>
+          <p class="mt-3 flex-1 text-lg font-semibold leading-snug text-ink-900 group-hover:text-clay-600">
+            “{item.title[lang]}”
+          </p>
+          <p class="mt-4 text-sm font-bold uppercase tracking-wider text-clay-600">{t('press.cta')} →</p>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

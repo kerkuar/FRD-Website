@@ -1,0 +1,59 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { Lang } from '@i18n/ui';
+import { useTranslations, localizedPath } from '@i18n/utils';
+
+interface Props {
+  speech: CollectionEntry<'speeches'>;
+  lang: Lang;
+}
+
+const { speech, lang } = Astro.props;
+const t = useTranslations(lang);
+const d = speech.data;
+
+const title = lang === 'en' && d.titleEn ? d.titleEn : d.title;
+const event = lang === 'en' && d.eventEn ? d.eventEn : d.event;
+const summary = lang === 'en' && d.summaryEn ? d.summaryEn : d.summary;
+const date = d.date.toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { year: 'numeric', month: 'long' });
+
+const detailHref = (lang === 'en' ? '/en/speeches/' : '/interventi/') + speech.slug;
+
+const thumb = d.type === 'youtube' && d.youtubeId
+  ? `https://i.ytimg.com/vi/${d.youtubeId}/hqdefault.jpg`
+  : null;
+---
+
+<article class="card flex flex-col gap-4 p-4">
+  {thumb && (
+    <a href={detailHref} class="relative block overflow-hidden rounded-lg bg-ink-900 aspect-video">
+      <img src={thumb} alt="" loading="lazy" class="h-full w-full object-cover opacity-90 transition group-hover:opacity-100"/>
+      <span class="absolute inset-0 flex items-center justify-center">
+        <span class="rounded-full bg-cream-50/95 p-3 text-ink-900">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </span>
+      </span>
+    </a>
+  )}
+
+  <div class="px-2 pb-2">
+    <div class="flex items-center gap-2 text-xs uppercase tracking-wider text-ink-500">
+      <span class="font-medium text-clay-700">{event}</span>
+      <span aria-hidden>·</span>
+      <time datetime={d.date.toISOString()}>{date}</time>
+      {d.location && (<><span aria-hidden>·</span><span>{d.location}</span></>)}
+    </div>
+
+    <h3 class="mt-2 font-serif text-xl leading-snug">
+      <a href={detailHref} class="hover:text-clay-700">{title}</a>
+    </h3>
+
+    <p class="mt-2 text-sm leading-relaxed text-ink-700 line-clamp-3">{summary}</p>
+
+    <div class="mt-3">
+      <a href={detailHref} class="text-sm font-medium text-clay-700 hover:text-clay-800">
+        {t('speeches.watch')} →
+      </a>
+    </div>
+  </div>
+</article>

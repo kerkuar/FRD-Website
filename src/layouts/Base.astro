@@ -1,0 +1,99 @@
+---
+import '@/styles/global.css';
+import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
+import { getLangFromUrl, useTranslations, alternateLangPath } from '@i18n/utils';
+import type { Lang } from '@i18n/ui';
+import campaign from '@/data/campaign.json';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  noindex?: boolean;
+  /** Override the auto-detected language. */
+  lang?: Lang;
+}
+
+const { title, description, image, noindex = false, lang: langProp } = Astro.props;
+const lang: Lang = langProp ?? getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const siteName = "Francesca Romana D'Antuono";
+const fullTitle = title === siteName ? siteName : `${title} — ${siteName}`;
+const metaDescription = description ?? t('site.tagline');
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://frdantuono.eu');
+const altLang = alternateLangPath(Astro.url, lang);
+const altUrl = new URL(altLang.path, Astro.site ?? 'https://frdantuono.eu');
+const ogImage = new URL(image ?? '/og-default.png', Astro.site ?? 'https://frdantuono.eu');
+---
+
+<!doctype html>
+<html lang={lang === 'it' ? 'it-IT' : 'en-GB'} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <link rel="canonical" href={canonical.toString()} />
+    <link rel="alternate" hreflang={altLang.lang === 'it' ? 'it-IT' : 'en-GB'} href={altUrl.toString()} />
+    <link rel="alternate" hreflang={lang === 'it' ? 'it-IT' : 'en-GB'} href={canonical.toString()} />
+    <link rel="alternate" hreflang="x-default" href={(new URL('/', Astro.site ?? 'https://frdantuono.eu')).toString()} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical.toString()} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:image" content={ogImage.toString()} />
+    <meta property="og:locale" content={lang === 'it' ? 'it_IT' : 'en_GB'} />
+    <meta property="og:locale:alternate" content={altLang.lang === 'it' ? 'it_IT' : 'en_GB'} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage.toString()} />
+
+    <!-- Fonts: Anton (poster display) + Inter (sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap"
+    />
+
+    {/* GoatCounter analytics — cookieless, no banner needed. Activates when a
+        code is set in src/data/campaign.json → analytics.goatcounterCode */}
+    {campaign.analytics.goatcounterCode && (
+      <script
+        is:inline
+        data-goatcounter={`https://${campaign.analytics.goatcounterCode}.goatcounter.com/count`}
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
+    )}
+  </head>
+  <body class="bg-cream-50 text-ink-900 antialiased">
+    <a href="#main"
+       class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4
+              focus:z-50 focus:rounded focus:bg-ink-900 focus:px-3 focus:py-2
+              focus:text-cream-50">
+      {lang === 'it' ? 'Salta al contenuto' : 'Skip to content'}
+    </a>
+
+    <Header lang={lang} />
+
+    <main id="main" class="min-h-[60vh]">
+      <slot />
+    </main>
+
+    <Footer lang={lang} />
+  </body>
+</html>

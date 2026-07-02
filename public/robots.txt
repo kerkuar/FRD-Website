@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frdantuono.eu/sitemap-index.xml

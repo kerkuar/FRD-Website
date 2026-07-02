@@ -1,0 +1,44 @@
+---
+import Base from '@layouts/Base.astro';
+const lang = 'en' as const;
+const updated = '2 July 2026';
+---
+
+<Base title="Privacy policy" lang={lang} noindex={false}>
+  <section class="container-prose py-12 md:py-20">
+    <span class="bar-accent" aria-hidden="true"></span>
+    <h1 class="mt-4 text-4xl md:text-5xl">Privacy policy</h1>
+    <p class="mt-2 text-sm text-ink-500">Last updated: {updated}</p>
+
+    <!-- DRAFT — standard draft, to be legally reviewed before launch. -->
+
+    <div class="prose-custom mt-8 space-y-6 text-ink-700 leading-relaxed">
+      <div>
+        <h2 class="text-xl text-ink-900">Data controller</h2>
+        <p class="mt-2">Francesca Romana D’Antuono — contact: francescaromanadantuono.frd@gmail.com</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">What we collect and why</h2>
+        <p class="mt-2"><strong>Contact form.</strong> Name, email, organisation (optional) and message, used exclusively to reply to your request. Forms are handled by Netlify (the site's hosting provider); data is never shared with third parties or used for other purposes.</p>
+        <p class="mt-2"><strong>Newsletter.</strong> The email address you provide is used only to send the newsletter. You can unsubscribe at any time via the link in every email or by writing to the contact above. The legal basis is consent (Art. 6.1.a GDPR), which you can withdraw at any time.</p>
+        <p class="mt-2"><strong>Visit statistics.</strong> The site uses (or will use) GoatCounter, an analytics tool that sets no cookies and does not track individual visitors: it records only aggregate, anonymous data (page visited, country, device type). For this reason no consent banner is required.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">Cookies</h2>
+        <p class="mt-2">This site sets no profiling cookies. Embedded videos use YouTube's enhanced-privacy mode (youtube-nocookie.com), which sets no cookies until you press play.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">Where data is stored</h2>
+        <p class="mt-2">The site is hosted on Netlify. Form data stays in the site's management dashboard and is accessible only to the controller and to the people maintaining the site on her behalf.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl text-ink-900">Your rights</h2>
+        <p class="mt-2">You can request access to, rectification or deletion of your data, or object to its processing, at any time by writing to the contact above. You also have the right to lodge a complaint with the Italian data protection authority (gpdp.it).</p>
+      </div>
+    </div>
+  </section>
+</Base>

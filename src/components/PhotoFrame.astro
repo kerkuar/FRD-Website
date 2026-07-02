@@ -1,0 +1,39 @@
+---
+/**
+ * Portrait frame with placeholder fallback.
+ * If `src` is set, renders the image; otherwise renders a tasteful textured
+ * placeholder at the same aspect ratio so the layout doesn't shift when
+ * real photos are dropped in.
+ */
+interface Props {
+  src?: string | undefined;
+  alt: string;
+  ratio?: 'portrait' | 'landscape' | 'square';
+  rounded?: 'lg' | 'xl' | '2xl' | '3xl';
+  caption?: string;
+}
+const { src, alt, ratio = 'portrait', rounded = '2xl', caption } = Astro.props;
+
+const aspect = ratio === 'portrait' ? 'aspect-[4/5]'
+             : ratio === 'square'   ? 'aspect-square'
+             : 'aspect-[16/10]';
+const radius = `rounded-${rounded}`;
+---
+
+<figure class={`overflow-hidden ${radius} bg-cream-200 border border-ink-900/8`}>
+  <div class={`relative ${aspect} w-full`}>
+    {src ? (
+      <img src={src} alt={alt} loading="lazy" class="h-full w-full object-cover" />
+    ) : (
+      <div class="absolute inset-0 bg-gradient-to-br from-clay-100 via-cream-200 to-sage-100 flex items-end p-5">
+        <div class="text-xs uppercase tracking-wider text-ink-700/70">
+          <!-- TODO: drop a portrait into /assets/photos/ and pass `src` -->
+          {alt}
+        </div>
+      </div>
+    )}
+  </div>
+  {caption && (
+    <figcaption class="px-3 py-2 text-xs text-ink-500">{caption}</figcaption>
+  )}
+</figure>

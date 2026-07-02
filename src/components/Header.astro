@@ -1,0 +1,102 @@
+---
+import { useTranslations, localizedPath, alternateLangPath } from '@i18n/utils';
+import type { Lang } from '@i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const alt = alternateLangPath(Astro.url, lang);
+
+const navItems = [
+  { key: 'about',     label: t('nav.about'),     href: localizedPath('about', lang) },
+  { key: 'positions', label: t('nav.positions'), href: localizedPath('positions', lang) },
+  { key: 'articles',  label: t('nav.articles'),  href: localizedPath('articles', lang) },
+  { key: 'speeches',  label: t('nav.speeches'),  href: localizedPath('speeches', lang) },
+  { key: 'contact',   label: t('nav.contact'),   href: localizedPath('contact', lang) },
+];
+const participateHref = localizedPath('participate', lang);
+
+const homeHref = localizedPath('home', lang);
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<header class="border-b border-ink-900/8 bg-cream-50/80 backdrop-blur sticky top-0 z-40">
+  <div class="container-page flex items-center justify-between py-5">
+    <a href={homeHref} class="group flex items-baseline gap-2" aria-label="Francesca Romana D'Antuono — Home">
+      <span class="font-serif text-xl uppercase tracking-tight text-ink-900">
+        Francesca Romana <span class="text-clay-600">D&rsquo;Antuono</span>
+      </span>
+    </a>
+
+    <button
+      type="button"
+      class="md:hidden inline-flex items-center justify-center rounded-full border border-ink-900/15 px-3 py-2 text-sm"
+      aria-controls="primary-nav"
+      aria-expanded="false"
+      data-nav-toggle
+    >
+      <span class="sr-only">{t('nav.menu')}</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+
+    <nav id="primary-nav"
+         class="hidden md:flex items-center gap-1"
+         aria-label="primary">
+      {navItems.map((item) => {
+        const isActive = currentPath === item.href.replace(/\/$/, '');
+        return (
+          <a
+            href={item.href}
+            class:list={[
+              'rounded-full px-3 py-1.5 text-sm transition-colors',
+              isActive ? 'bg-ink-900 text-cream-50' : 'text-ink-800 hover:text-clay-700',
+            ]}
+          >{item.label}</a>
+        );
+      })}
+      <a
+        href={participateHref}
+        class="ml-2 rounded-md bg-sage-400 px-4 py-1.5 text-sm font-bold uppercase tracking-wider text-ink-900 transition-colors hover:bg-ink-900 hover:text-sage-400"
+      >{t('nav.participate')}</a>
+      <a
+        href={alt.path}
+        hreflang={alt.lang}
+        class="ml-2 rounded-md border border-ink-900/15 px-3 py-1.5 text-xs font-medium tracking-wider uppercase text-ink-700 hover:border-ink-900 hover:text-ink-900"
+        aria-label={alt.lang === 'en' ? 'Switch to English' : 'Passa all’italiano'}
+      >
+        {t('lang.switch')}
+      </a>
+    </nav>
+  </div>
+
+  <!-- Mobile drawer -->
+  <div id="mobile-nav" class="md:hidden hidden border-t border-ink-900/8 bg-cream-50">
+    <nav class="container-page flex flex-col gap-1 py-4" aria-label="mobile">
+      {navItems.map((item) => (
+        <a href={item.href} class="rounded-lg px-3 py-2 text-base text-ink-800 hover:bg-ink-900/[0.04]">{item.label}</a>
+      ))}
+      <a href={participateHref} class="mt-1 rounded-md bg-sage-400 px-3 py-2 text-center text-sm font-bold uppercase tracking-wider text-ink-900">{t('nav.participate')}</a>
+      <a
+        href={alt.path}
+        hreflang={alt.lang}
+        class="mt-2 rounded-lg border border-ink-900/15 px-3 py-2 text-sm font-medium uppercase tracking-wider"
+      >{alt.lang === 'en' ? 'English' : 'Italiano'}</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector('[data-nav-toggle]');
+  const drawer = document.getElementById('mobile-nav');
+  if (toggle && drawer) {
+    toggle.addEventListener('click', () => {
+      const open = drawer.classList.toggle('hidden') === false;
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+  }
+</script>

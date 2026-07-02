@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: 250 249 246;      /* warm paper white */
+    --color-text: 23 18 31;       /* ink with a purple undertone */
+    --color-accent: 88 44 131;    /* Volt purple */
+    --color-gold: 255 197 61;     /* rally gold */
+  }
+
+  html {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: rgb(var(--color-bg));
+    color: rgb(var(--color-text));
+  }
+
+  body { min-height: 100vh; }
+
+  /* Poster typography: Anton, uppercase, tight leading. */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', 'Arial Narrow', Impact, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    line-height: 1.02;
+  }
+
+  a { color: inherit; }
+
+  ::selection { background: rgb(var(--color-gold) / 0.55); }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
+  .container-prose { @apply mx-auto w-full max-w-prose px-5 sm:px-8; }
+
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-wider transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-clay-600 focus-visible:ring-offset-cream-50; }
+  .btn-primary { @apply btn bg-clay-600 text-white hover:bg-ink-900 hover:-translate-y-0.5 shadow-[4px_4px_0_0_rgb(255_197_61)]; }
+  .btn-gold { @apply btn bg-sage-400 text-ink-900 hover:bg-ink-900 hover:text-sage-400 hover:-translate-y-0.5 shadow-[4px_4px_0_0_rgb(88_44_131)]; }
+  .btn-outline { @apply btn border-2 border-ink-900 text-ink-900 hover:bg-ink-900 hover:text-cream-50; }
+
+  .link-underline { @apply underline decoration-clay-600/40 decoration-2 underline-offset-4 hover:decoration-clay-600 transition-all; }
+  .eyebrow { @apply uppercase tracking-[0.2em] text-xs font-bold text-clay-600; }
+  .card { @apply rounded-xl border-2 border-ink-900/10 bg-white p-6 transition-all hover:border-clay-600 hover:shadow-[6px_6px_0_0_rgb(88_44_131_/_0.15)]; }
+
+  /* Tilted gold marker behind a word — the AOC-poster highlight. */
+  .highlight-tilt {
+    @apply relative inline-block px-2;
+    background: rgb(var(--color-gold));
+    transform: rotate(-1.5deg);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  .highlight-tilt > * { display: inline-block; transform: rotate(1.5deg); }
+
+  /* Purple flavour of the same marker, for use on gold/light-purple grounds. */
+  .highlight-tilt-purple {
+    @apply relative inline-block px-2 text-white;
+    background: rgb(var(--color-accent));
+    transform: rotate(-1.5deg);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* Thick accent bar used as a section opener. */
+  .bar-accent { @apply inline-block h-2 w-16 bg-sage-400; transform: skewX(-12deg); }
+
+  /* Slanted section edges (poster diagonal). Apply to a full-bleed section. */
+  .clip-slant-top { clip-path: polygon(0 3.5rem, 100% 0, 100% 100%, 0 100%); }
+  .clip-slant-bottom { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3.5rem), 0 100%); }
+}

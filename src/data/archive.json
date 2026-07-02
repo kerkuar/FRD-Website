@@ -1,0 +1,1062 @@
+{
+ "_HOW_TO_EDIT": "Full archive of FRD's articles, interviews, speeches and events, extracted from 'Extra/Archive & press.xlsx' on 2026-07-02. Not yet displayed on the site; ready to power a full 'Archivio' page. To publish an item as an article or speech, create an .mdx file (see README).",
+ "items": [
+  {
+   "date": "2021-07-01",
+   "title": "Chiara Corazza: diritti alle donne, non elemosine",
+   "url": "https://www.tuttieuropaventitrenta.eu/2021/08/20/chiara-corazza-diritti-alle-donne-non-elemosine/",
+   "medium": "Article",
+   "topic": "Women"
+  },
+  {
+   "date": "2021-10-28",
+   "title": "Time to make the leap with European crisis response units",
+   "url": "https://www.euractiv.com/section/defence-and-security/opinion/time-to-make-the-leap-with-european-crisis-response-units/",
+   "medium": "Article",
+   "topic": "Security"
+  },
+  {
+   "date": "2021-11-20",
+   "title": "La carta dei Verdi tedeschi contro il flop della Cop26",
+   "url": "https://www.tuttieuropaventitrenta.eu/2021/11/20/la-carta-dei-verdi-tedeschi-contro-il-flop-della-cop26/",
+   "medium": "Article",
+   "topic": "Environment"
+  },
+  {
+   "date": "2022-02-25",
+   "title": "Democratizing the European parliament elections: why is it needed and where are we at",
+   "url": "https://www.cofoe.euractiv.com/post/democratizing-the-european-parliament-elections-why-is-it-needed-and-where-are-we-at",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2022-03-01",
+   "title": "Keynote speech at Women of Volt Europa retreat",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "Women"
+  },
+  {
+   "date": "2022-06-01",
+   "title": "Volt Europa General Assembly",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2022-07-24",
+   "title": "I98 Women in politics",
+   "url": "https://www.youtube.com/watch?app=desktop&v=TctkB6wMAWA",
+   "medium": "Debate",
+   "topic": "Women"
+  },
+  {
+   "date": "2022-08-01",
+   "title": "L’esperienza paneuropea di Volt mostra che l’Italia non è un paese per giovani partiti",
+   "url": "https://www.editorialedomani.it/idee/voci/lesperienza-paneuropea-di-volt-mostra-che-litalia-non-e-un-paese-per-giovani-partiti-nejkrx0c",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2022-09-23",
+   "title": "Francesca Romana D’Antuono, Volt Europa: “Scommetto che…”",
+   "url": "https://linserto.it/francesca-romana-dantuono-volt-europa-scommetto-che/",
+   "medium": "Interview",
+   "topic": "VOLT"
+  },
+  {
+   "date": "Sept 2022",
+   "title": "State of the EU 2022: We need a stronger, reformed European Union - Op.ed Euractiv - 2022",
+   "url": "https://linserto.it/francesca-romana-dantuono-volt-europa-scommetto-che/",
+   "medium": null,
+   "topic": "EU"
+  },
+  {
+   "date": "2022-10-11",
+   "title": "Vypískání Orbána? Příležitost být vidět, říká šéfka první celoevropské strany",
+   "url": "https://www.seznamzpravy.cz/clanek/zahranicni-vypiskani-orbana-prilezitost-byt-videt-rika-sefka-prvni-celoevropske-strany-216542",
+   "medium": "Interview",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2022-10-13",
+   "title": "Volt General Assembly",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2022-10-14",
+   "title": "European Youth Event Santander",
+   "url": null,
+   "medium": "Panel",
+   "topic": null
+  },
+  {
+   "date": "2022-11-01",
+   "title": "Introductory speech - International Association of Political Consultants (IAPC)",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "Rise of the right"
+  },
+  {
+   "date": "2022-11-20",
+   "title": "Open Borders Institute - interview",
+   "url": "https://www.youtube.com/watch?v=1-3O0QGMi5A",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2023-01-24",
+   "title": "Radicali o moderati?",
+   "url": "https://www.editorialedomani.it/idee/voci/radicali-o-moderati-per-il-clima-serve-una-rivoluzione-generale-hwgx2z1z",
+   "medium": "Article",
+   "topic": "Environment"
+  },
+  {
+   "date": "2023-01-26",
+   "title": "How Unequal Access to Funds Hinders Women’s Participation in Politics",
+   "url": "https://www.ceeher.org/how-unequal-access-to-funds-hinders-womens-participation-in-politics/",
+   "medium": "Article",
+   "topic": "Women"
+  },
+  {
+   "date": "2023-01-01",
+   "title": "Berlin Public Action",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-01-01",
+   "title": "All’inutile finanziaria del governo Meloni manca uno sguardo globale",
+   "url": "https://www.linkiesta.it/2023/01/finanziaria-meloni-inutile/",
+   "medium": "Article",
+   "topic": "Economics"
+  },
+  {
+   "date": "2023-02-16",
+   "title": "Darmstadt",
+   "url": "https://www.linkedin.com/posts/thisisfrd_collectiveintelligence-collectivesolutions-activity-7072549103552847872-7D1m?utm_source=share&utm_medium=member_desktop",
+   "medium": "Speaker",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-02-16",
+   "title": "LinkedIn live - finance stuff",
+   "url": null,
+   "medium": "Panel",
+   "topic": "Economics"
+  },
+  {
+   "date": "2023-02-19",
+   "title": "Finanziaria, chi la paga? Conseguenze della manovra per aziende e persone - diretta di Volt Italia",
+   "url": "https://www.linkedin.com/events/finanziaria-chilapaga-conseguen7031898432084582400/comments/",
+   "medium": "Speaker",
+   "topic": "Economics"
+  },
+  {
+   "date": "2023-02-24",
+   "title": "365 days ahead: Ukraine’s future in Europe",
+   "url": "https://brusselsmorning.com/365-days-ahead-ukraines-future-in-europe/30921/",
+   "medium": "Article",
+   "topic": "Security"
+  },
+  {
+   "date": "2023-03-17",
+   "title": "Citizens' Summit - EUmans",
+   "url": "https://www.youtube.com/live/T9tkLdqFe3s?si=4sjjpP6GDHYHHPLe",
+   "medium": "Speaker",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-03-01",
+   "title": "Greek elections",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-04-29",
+   "title": "Volt Berlin",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7058025036040826880?utm_source=share&utm_medium=member_desktop",
+   "medium": "Speaker",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2023-05-09",
+   "title": "The most undemocratic champion of democracy",
+   "url": "https://www.volteuropa.org/statement/The-most-undemocratic-champion-of-democracy",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-05-01",
+   "title": "A nudo - a political act!",
+   "url": null,
+   "medium": "Panel",
+   "topic": "Women"
+  },
+  {
+   "date": "2023-05-01",
+   "title": "Volt Nederland Congress",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2023-05-01",
+   "title": "Volt Slovakia launch",
+   "url": null,
+   "medium": "Panel",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-06-04",
+   "title": "Bucharest GA",
+   "url": null,
+   "medium": "Speaker",
+   "topic": null
+  },
+  {
+   "date": "2023-06-27",
+   "title": "Euopean Leadership Academy - Tech cares for life",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7080201396687429632?utm_source=share&utm_medium=member_desktop",
+   "medium": "Conference",
+   "topic": "AI"
+  },
+  {
+   "date": "2023-06-01",
+   "title": "The EU lacks political will to give asylum seekers decent refuge - Op.ed EU observer - 2023",
+   "url": "https://euobserver.com/opinion/157135",
+   "medium": null,
+   "topic": "Migration"
+  },
+  {
+   "date": "2023-08-20",
+   "title": "Solo gli attivisti nelle strade possono battere il negazionismo climatico",
+   "url": "https://www.tuttieuropaventitrenta.eu/2023/08/20/solo-gli-attivisti-nelle-strade-possono-battere-il-negazionismo-climatico/",
+   "medium": "Article",
+   "topic": "Environment"
+  },
+  {
+   "date": "2023-08-28",
+   "title": "^^ XX European-American Young Leaders Conference by Global Bridges",
+   "url": null,
+   "medium": "Conference",
+   "topic": "Security"
+  },
+  {
+   "date": "2023-10-13",
+   "title": "Female founders night",
+   "url": null,
+   "medium": "Panel",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-11-03",
+   "title": "Greek Public Policy Forum",
+   "url": null,
+   "medium": "Panel",
+   "topic": "Economics"
+  },
+  {
+   "date": "2023-11-06",
+   "title": "Francesca Romana D'Antuono\"Vogliamo cambiare l'Europa\"",
+   "url": "https://www.haniotika-nea.gr/francesca-romana-d-antuono-theloy-e-na-allaxoy-e-tin-eyropi/",
+   "medium": "Interview",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2023-12-07",
+   "title": "Euractiv Advocacy Debate: European Political Party Views towards the 2024-2029 EU Agenda",
+   "url": "https://www.euractiv.com/section/all/video/euractiv-advocacy-debate-european-political-party-views-towards-the-2024-2029-eu-agenda/",
+   "medium": "Interview",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2023-12-01",
+   "title": "The health of the Schengen Area: reflection of the EU's democratic state",
+   "url": "https://www.facemagazine.it/la-salute-dellarea-schengen-riflesso-dello-stato-democratico-dellue/",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-01-01",
+   "title": "5 ideas for the European parliament: #1 Tax Justice - Op.ed Face Magazine",
+   "url": "https://www.facemagazine.it/5-idee-per-il-prossimo-parlamento-europeo-1-giustizia-fiscale/",
+   "medium": "Article",
+   "topic": "Economics"
+  },
+  {
+   "date": "2024-01-30",
+   "title": "TV show guest - Di Martedi - La7 (national TV channel, min 7:00)",
+   "url": "https://www.youtube.com/watch?v=fDpYr9EuN90",
+   "medium": "Speaker",
+   "topic": "Rise of the right"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "5 ideas for the European parliament: #2 Migration",
+   "url": "https://www.facemagazine.it/5-idee-per-il-prossimo-parlamento-europeo-2-politica-migratoria/",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "Fratelli d’Italia vuole limitare il numero di partiti alle elezioni: una barriera al rinnovamento - Op.ed. Il Fatto Quotidiano - 2024",
+   "url": "https://www.ilfattoquotidiano.it/2024/02/18/fratelli-ditalia-vuole-limitare-il-numero-di-partiti-alle-elezioni-una-barriera-al-rinnovamento/7447821/",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "Konrad Adenauer Stiftung - Why the EU needs a commissioner in charge of defense",
+   "url": null,
+   "medium": "Panel",
+   "topic": "Security"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "Cambridge University - Cambridge Union - This house believes in a United States of Europe - Feb 2024",
+   "url": "https://l.workplace.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoczJZsElHqs&h=AT2oGH0z-U-QWakqdkaugLKnkXLRiCodcPNrWfAZy6GWbXuAyIpo62mFV3gOUfAHu9DaVopojAuV1ILd5cMS7fmporqURvTlWYDWeUPCX0gH6BsPX6ZiXePCQsUjchP0tJiIDvL4dqrEApVc6rwVDOObrMqg8q1-Pg",
+   "medium": "Debate",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "Anti-fascist protest in Rome",
+   "url": "https://www.instagram.com/reel/C3zQ8f8MAMB/?igsh=MXduY252eG8xZ2Vzbw==",
+   "medium": "Public Action",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-02-01",
+   "title": "Protest with Volt Italia at Montecitorio",
+   "url": "https://www.instagram.com/reel/C32uHCrCFfB/?igsh=dmV3Y2Y2cTBsZDhj",
+   "medium": "Public Action",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-03-01",
+   "title": "REscEU2 - Road to EU elections - pnael discussion with the European movement",
+   "url": null,
+   "medium": "Debate",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-03-01",
+   "title": "EU can do it - press conference",
+   "url": "https://www.radioradicale.it/scheda/722005?i=4723596",
+   "medium": "Conference",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-03-01",
+   "title": "European parliament elections 2024 - state of the play",
+   "url": "https://open.spotify.com/episode/3BCzMAsaMZvvb3qyATDukr?si=46abbc969fdf4085",
+   "medium": "Interview",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-03-01",
+   "title": "Politicwise",
+   "url": "https://www.politicwise.org/podcast/francesca-romana-dantuono-positivity-feeling-anxious-and-doing-politics-differently/",
+   "medium": "Speaker",
+   "topic": "EXPERIENCE"
+  },
+  {
+   "date": "2024-03-01",
+   "title": "Locri Dublino",
+   "url": null,
+   "medium": null,
+   "topic": null
+  },
+  {
+   "date": "2024-03-01",
+   "title": "Granelli - la serie",
+   "url": "https://www.youtube.com/watch?app=desktop&si=LQtNa9V5h0IgBiiV&fbclid=PAAabVfVrHyqC55f69evtyBAvQ66vC9SQk6hHgDNjwbNjwIdSXgc_yWqSTyf8&v=e2QFFetP_LQ&feature=youtu.be",
+   "medium": "Interview",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2024-04-01",
+   "title": "Bruxelles Speech",
+   "url": "https://www.youtube.com/watch?v=lDbYtz_mhlo",
+   "medium": "Speaker",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-04-01",
+   "title": "D’Antuono (Volt) a TPI: “Elezioni europee? Serve una riforma elettorale. Ecco cosa vogliamo fare” - Intervista The Post Internazionale",
+   "url": "https://www.tpi.it/politica/dantuono-volt-tpi-elezioni-europee-serve-una-riforma-elettorale-202404191097951/",
+   "medium": "Interview",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-04-01",
+   "title": "Podcast con Volt Netherlands",
+   "url": "https://open.spotify.com/episode/3p8Bxm0elff6LwaF06WmDg?si=Wu4rsgqBTEeETxA7YelkCQ&nd=1&dlsi=330a50b6c78746d6",
+   "medium": "Interview",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-04-01",
+   "title": "Francesca Romana D’Antuono (Volt Europa): riformare l’Unione europea per affrontare le sfide del nostro tempo",
+   "url": "https://euractiv.it/section/elezioni-europee-2024/interview/francesca-romana-dantuono-volt-europa-riformare-lunione-europea-per-affrontare-le-sfide-del-nostro-tempo/",
+   "medium": "Interview",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-05-01",
+   "title": "L’Unione europea ha il dovere di aiutare la popolazione ucraina a sopravvivere",
+   "url": "https://www.linkiesta.it/2024/05/missione-europea-kyjiv-linee-guida-europee/",
+   "medium": "Interview",
+   "topic": "Rise of the right"
+  },
+  {
+   "date": "2024-06-01",
+   "title": "Gaza: The rest of the world sees hypocrisy written into the West’s response",
+   "url": "https://www.politico.eu/article/gaza-war-israel-opinion-hypocrisy-west-response-europe-palestine-israel-icc/",
+   "medium": "Article",
+   "topic": "Rise of the right"
+  },
+  {
+   "date": "2024-06-01",
+   "title": "Francesca Romana D’Antuono c’è una manager pescarese dietro la crescita europea di Volt",
+   "url": "https://www.ilmessaggero.it/abruzzo/francesca_romana_d_antuono_c_manager_pescarese_dietro_la_crescita_europea_di_volt-8177554.html",
+   "medium": "Article",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2024-06-01",
+   "title": "The challenges of our time see no borders, responses to those threats remain inadequate and dangerously short-sighted",
+   "url": "https://orato.world/2024/07/01/the-challenges-of-our-time-see-no-borders-responses-to-those-threats-remain-inadequate-and-dangerously-short-sighted/",
+   "medium": "Interview",
+   "topic": "Rise of the right"
+  },
+  {
+   "date": "2024-07-01",
+   "title": "Vítězství Ursuly von der Leyenové. Jak se podruhé dostala do čela Komise",
+   "url": "https://www.seznamzpravy.cz/clanek/volby-eurovolby-eu-ziskala-diky-von-der-leyenove-tvar-i-hlas-nadelala-si-ale-odpurce-255861",
+   "medium": "Interview",
+   "topic": "EU"
+  },
+  {
+   "date": "2024-07-01",
+   "title": "The value of listening with Volt Europa’s Francesca Romana D’Antuono",
+   "url": "https://dehavillandeurope.eu/2024/07/31/the-value-of-listening-with-volt-europas-francesca-romana-dantuono/",
+   "medium": "Interview",
+   "topic": "EXPERIENCE"
+  },
+  {
+   "date": "Sept 2024",
+   "title": "Com'e' profondo il Mario - Luci e ombre del report Draghi",
+   "url": "https://www.google.it/amp/s/www.tpi.it/opinioni/rapporto-draghi-competitivita-ue-analisi-202409231128522/amp/",
+   "medium": "Article",
+   "topic": "Economics"
+  },
+  {
+   "date": "Sept 2024",
+   "title": "Gendered taxation",
+   "url": "https://drive.google.com/file/d/11hLgIcMuQS--qMJ_MHe_L05h3cqHMv8F/view",
+   "medium": "Panel",
+   "topic": "Economics"
+  },
+  {
+   "date": "Sept 2024",
+   "title": "Israel/Palestine dialogue with Standing Together in Amsterdam",
+   "url": "https://www.youtube.com/watch?v=NHu7tXtQil4",
+   "medium": "Panel",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-10-01",
+   "title": "Volt Sense x Ita Expat Brussels",
+   "url": null,
+   "medium": "Workshop",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2024-10-17",
+   "title": "Spinoza event at the EP + dinner",
+   "url": null,
+   "medium": null,
+   "topic": "VOLT"
+  },
+  {
+   "date": "2024-10-01",
+   "title": "PoliticaMag: Quando inizieremo a prendere sul serio il cambiamento climatico?",
+   "url": "https://politicamag.it/quando-inizieremo-a-prendere-sul-serio-il-cambiamento-climatico/",
+   "medium": "Article",
+   "topic": "Environment"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "PoliticaMag: La fuga delle classi popolari",
+   "url": "https://politicamag.it/la-fuga-delle-classi-popolari/",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "PoliticaMag: Salario minimo europeo: un'occasione mancata",
+   "url": "https://politicamag.it/salario-minimo-europeo-unoccasione-mancata-per-litalia/",
+   "medium": "Article",
+   "topic": "Economics"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Il personale che dovrebbe gestire i centri per migranti in Albania se ne sta andando - Il Post",
+   "url": "https://www.ilpost.it/2024/11/23/albania-centri-migranti-svuotamento-personale/?utm_medium=social&utm_source=telegram&utm_campaign=lancio",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Si svuotano i centri per migranti in Albania: via poliziotti e operatori. E la Libra resta ferma - La Repubblica",
+   "url": "https://www.repubblica.it/italia/2024/11/23/news/centri_migranti_albania_poliziotti_nave_libra_ferma-423694315/",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Congelato il progetto Albania. Della coop restano sette italiani - ll Manifesto",
+   "url": "https://ilmanifesto.it/congelato-il-progetto-albania-della-coop-restano-7-italiani",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Albania: svuotati i centri per migranti in Albania. Cosa succede ora? - La 7 digitale",
+   "url": "https://tg.la7.it/politica/albania-svuotati-centri-migranti-cosa-succede-22-11-2024-226649",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Continua il clamore per l’accordo migratorio Italia-Albania - Euractiv Italia",
+   "url": "https://euractiv.it/section/capitali/news/continua-il-clamore-per-laccordo-migratorio-italia-albania/",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Lucern Base Camp",
+   "url": "https://www.linkedin.com/posts/lucerne-dialogue_basecamp-2024-kick-off-activity-7267244667644100610-Hh0O?utm_source=share&utm_medium=member_desktop",
+   "medium": "Workshop",
+   "topic": "EXPERIENCE"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Il desolante e costoso fallimento del centro per migranti di Gjadër, in Albania - Linkiesta",
+   "url": "https://www.linkiesta.it/2024/11/fallimento-centro-migranti-albania-soldi-gjader/",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-11-01",
+   "title": "Uproar over the Italy-Albania migration deal continues",
+   "url": "https://www.euractiv.com/section/politics/news/uproar-over-the-italy-albania-migration-deal-continues/",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-12-01",
+   "title": "Podcast \"Notizie a Colazione\" - Il racconto di una visita al centro per migranti di Gjadër in Albania",
+   "url": "https://open.spotify.com/episode/4pDB7MTlHfF2QDfKTO8bZl",
+   "medium": "Podcast",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-12-01",
+   "title": "Podcast Conversazioni di coppia - episodio 63 (partecipazione)",
+   "url": "https://open.spotify.com/episode/5K8rsfhAASfMTYnviDAcVb?si=1c61f5e63e9b4076",
+   "medium": "Podcast",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-12-01",
+   "title": "“Abbiamo ceduto il nostro territorio per accordi criminali, noi migranti come loro”: anche cittadini albanesi alla protesta contro il cpr di Gjadër",
+   "url": "https://www.ilfattoquotidiano.it/2024/12/02/albania-proteste-migranti-cpr-video/7788150/",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-12-01",
+   "title": "Shqipëria nuk është koloni italiane'/ Presidentja e Volt Europa: Të investojmë për njerëzit, jo për qendra izolimi",
+   "url": "https://www.syri.net/politike/743908/shqiperia-nuk-eshte-koloni-italiane-presidentja-e-volt-europa-te-investojme-per-njerezit-jo-per-qendra-izolimi/",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-12-01",
+   "title": "Partecipazione alla trasmissione Piranjat in Albania sul tema dei CPR",
+   "url": "https://www.youtube.com/watch?v=XAsm2yA-B9g",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2024-12-16",
+   "title": "Migranti: la realtà italiana e spagnola a confronto",
+   "url": "https://politicamag.it/flussi-migratori-italia-spagna-a-confronto/",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2025-01-01",
+   "title": "Meloni’s Albanian migrant detention centers are now ghost towns",
+   "url": "https://www.politico.eu/article/giorgia-meloni-italy-albania-migrant-detention-centers-ghost-towns/",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2025-01-01",
+   "title": "Non sappiamo ancora molte cose del patto Meloni-Rama sui migranti - Pagella Politica",
+   "url": "https://pagellapolitica.it/articoli/patto-meloni-rama-migranti-albania",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2025-02-01",
+   "title": "Itálie provozuje migrační centra na albánské půdě. Jde o hanbu pro celou Evropu",
+   "url": "https://denikreferendum.cz/clanek/237111-italie-provozuje-migracni-centra-na-albanske-pude-jde-o-hanbu-pro-celou-evropu",
+   "medium": "Interview",
+   "topic": "Migration"
+  },
+  {
+   "date": "2025-02-01",
+   "title": "Denmark outsourcing prisoners to Kosovo set pattern for Meloni and Albania",
+   "url": "https://euobserver.com/nordics/ara1acfe73",
+   "medium": "Article",
+   "topic": "Migration"
+  },
+  {
+   "date": "2025-02-01",
+   "title": "Model UN simulation - key note speaker",
+   "url": null,
+   "medium": "Speaker",
+   "topic": "EU"
+  },
+  {
+   "date": "2025-03-01",
+   "title": "Intervista Fanpage #UnaPiazzaPerLEuropa - 15 marzo Roma",
+   "url": "https://www.youtube.com/watch?v=fDUvWpG5DN8",
+   "medium": "Interview",
+   "topic": "EU"
+  },
+  {
+   "date": "2025-03-01",
+   "title": "Stati Uniti d'Europa: un'Utopia necessaria - tavola rotonda Firenze 29/03/2025",
+   "url": "https://www.statiunitieuropa.com/",
+   "medium": "Speaker",
+   "topic": "EU"
+  },
+  {
+   "date": "2025-04-01",
+   "title": "Referendum per i matrimoni omosessuali, parte la raccolta firme: cosa dice il quesito - FANPAGE",
+   "url": "https://www.fanpage.it/politica/referendum-per-dare-il-via-ai-matrimoni-omosessuali-cosa-dice-il-quesito-depositato-in-cassazione/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-04-01",
+   "title": "Referendum in pista, diritti uguali per tutte le coppie - SFOGLIA ROMA",
+   "url": "https://www.sfogliaroma.it/2025/04/14/referendum-in-pista-diritti-uguali-per-tutte-le-coppie/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-04-01",
+   "title": "Podcast Notizie a colazione (puntata del 15 aprile)",
+   "url": "https://open.spotify.com/episode/16UidaOCRhb2fmszpQmoSx?si=6ab339a33657423b",
+   "medium": "Podcast",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-04-01",
+   "title": "Referendum per pari diritti: Uguali! chiede la modifica della Legge Cirinnà per riconoscere il matrimonio per tutti - FIRST",
+   "url": "https://www.firstonline.info/referendum-per-pari-diritti-uguali-chiede-la-modifica-della-legge-cirinna-per-riconoscere-il-matrimonio-per-tutti/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-04-01",
+   "title": "Podcast Conversazioni di coppia - episodio 79 (menzione)",
+   "url": "https://open.spotify.com/episode/2K0z4xQcu4p4zNlhZuSUev?si=b37c4f463ecf48ff",
+   "medium": "Podcast",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-04-01",
+   "title": "D’Antuono (Volt Europa): un referendum per “eliminare le disparità tra unioni civili e matrimonio” e reagire all’arretramento dei diritti in Europa - EURACTIV",
+   "url": "https://euractiv.it/section/politica/interview/dantuono-volt-europa-un-referendum-per-eliminare-le-disparita-tra-unioni-civili-e-matrimonio-e-reagire-allarretramento-dei-diritti-in-europa/",
+   "medium": "Interview",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Opening debate at St Gallen Symposium \"Should we be optimistic about Europe's future?\"",
+   "url": "https://youtu.be/OjzGJeG0oDI?feature=shared",
+   "medium": "Panel",
+   "topic": "EU"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum sul matrimonio egualitario, facciamo chiarezza su come funziona davvero",
+   "url": "https://www.wired.it/article/matrimonio-egualitario-cosa-prevede-referendum/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Sono state raccolte già 250.000 firme a favore di un referendum sulle unioni civili",
+   "url": "https://www.cosmopolitan.com/it/lifecoach/news-attualita/a64752116/referendum-matrimonio-egualitario-come-funziona/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Cathy La Torre: «Non illudetevi, non è un referendum per il matrimonio egualitario»",
+   "url": "https://www.vanityfair.it/article/cathy-la-torre-referendum-matrimonio-egualitario",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Un referendum per eguagliare matrimoni e unioni civili? Al via la raccolta firme",
+   "url": "https://www.ildigitale.it/news/referendum-matrimoni-e-unioni-civili-uguali/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Il referendum per il matrimonio egualitario spiegato in maniera semplice a un ragazzo di 15 anni",
+   "url": "https://www.webboh.it/matrimonio-egualitario-referendum-spiegazione/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Depositata proposta di referendum per i matrimoni egualitari: parte la raccolta firme",
+   "url": "https://torinocronaca.it/news/tendenze/508766/depositata-proposta-di-referendum-per-i-matrimoni-egualitari-parte-la-raccolta-firme.html",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum matrimonio egualitario, polemica sul testo del quesito proposto",
+   "url": "https://tg24.sky.it/politica/2025/05/14/proposta-referendum-matrimonio-egualitario",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Matrimonio Egualitario, è partita la raccolta firme per il referendum",
+   "url": "https://www.quotidianopiemontese.it/2025/05/12/matrimonio-egualitario-e-partita-la-raccolta-firme-per-il-referendum/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Post instagram di Freeda su Referendum UGUALI! (con menzione diretta di FRD)",
+   "url": "https://www.instagram.com/p/DJmTKFsxF0N/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Spunta il referendum che avvicina le unioni civili al matrimonio. Ma le associazioni LGBTQIA+ dicono no. - LA STAMPA",
+   "url": "https://www.lastampa.it/rubriche/diversity-editor/2025/05/15/news/referendum_matrimonio_egualitario_dibattito-15147960/",
+   "medium": "Interview",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Presto potremmo votare sul matrimonio egualitario: perché c’è già polemica sul testo del referendum",
+   "url": "https://www.fanpage.it/politica/presto-potremmo-votare-sul-matrimonio-egualitario-perche-ce-gia-polemica-sul-testo-del-referendum/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum matrimonio egualitario 2025: parte la raccolta firme, ma la proposta divide la comunità LGBTQIA+",
+   "url": "https://www.vdnews.it/diritti/2025/05/14/news/referendum-matrimonio-egualitario-2025-parte-la-raccolta-firme-ma-la-proposta-divide-la-comunita-lgbtqia-19199832/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Unioni civili e matrimonio egualitario: il referendum che potrebbe riscrivere la legge Cirinnà",
+   "url": "https://corrieretoscano.it/italia-mondo/demografica/unioni-civili-e-matrimonio-egualitario-il-referendum-che-potrebbe-riscrivere-la-legge-cirinna/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum matrimonio egualitario, dubbi sulla validità del testo",
+   "url": "https://metropolitanmagazine.it/referendum-matrimonio-egualitario-dubbi-sulla-validita-del-testo/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Si stanno raccogliendo le firme per un “referendum sul matrimonio egualitario”? Non è così",
+   "url": "https://www.gay.it/firme-referendum-matrimonio-egualitario",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Unione o matrimonio? Il referendum che può cambiare tutto",
+   "url": "https://www.ilmediano.com/unione-o-matrimonio-il-referendum-che-puo-cambiare-tutto/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum sui matrimoni per le coppie dello stesso sesso, raccolta firme al via: \"Battaglia di civiltà\"",
+   "url": "https://www.genovatoday.it/politica/referendum-matrimonio-egualitario-come-firmare.html",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Unioni civili e matrimonio egualitario: il referendum che potrebbe riscrivere la legge Cirinnà",
+   "url": "https://demografica.adnkronos.com/famiglia/unioni-civili-matrimonio-egualitario-referendum-legge-cirinna/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum \"matrimonio\" gay",
+   "url": "https://lanuovabq.it/it/referendum-matrimonio-gay-1",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Referendum “matrimonio egualitario”: una battaglia simbolica o un passo concreto? Cosa c’è davvero in gioco",
+   "url": "https://www.alfemminile.com/attualita/referendum-matrimonio-egualitario-una-battaglia-simbolica-o-un-passo-concreto-cosa-c-e-davvero-in-gioco/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Dove firmare referendum matrimonio egualitario, scadenze e quesito",
+   "url": "https://www.money.it/dove-firmare-referendum-matrimonio-egualitario-scadenze-quesito",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Fuor di pagina - la rassegna stampa di Certi Diritti - Radio Radicale",
+   "url": "https://www.radioradicale.it/scheda/759336/fuor-di-pagina-la-rassegna-stampa-di-certi-diritti",
+   "medium": "Podcast",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Closer (Will) - Un nuovo referendum in vista",
+   "url": "https://open.spotify.com/episode/2QAdkRGOrIwq66CrBf3WDQ?si=ac49d989fe194f15",
+   "medium": "Podcast",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Seietrenta (Chora media) - puntata del 14 maggio 2025",
+   "url": "https://open.spotify.com/episode/2hmEZOQH0zNOLL7Ye4Zf1F?si=d0ef815a74fb4b0f",
+   "medium": "Podcast",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Il referendum sul “matrimonio egualitario” non convince tutta la comunità LGBT+ - PAGELLA POLITICA",
+   "url": "https://pagellapolitica.it/articoli/referendum-matrimonio-egualitario-lgbt",
+   "medium": "Interview",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-05-01",
+   "title": "Menzione Referendum Uguali! puntata di Breaking Italy del 29/05 (+ conseguente reel)",
+   "url": "https://www.youtube.com/watch?v=0vUoRmGe05Y",
+   "medium": "Podcast",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-06-01",
+   "title": "Raccolte quasi il 70% delle firme per la richiesta di referendum sul matrimonio egualitario",
+   "url": "https://euractiv.it/section/diritti/news/raccolte-quasi-il-70-delle-firme-per-la-richiesta-di-referendum-sul-matrimonio-egualitario/",
+   "medium": "Article",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-06-01",
+   "title": "Unioni civili, come cambierebbero con il referendum sul matrimonio egualitario? - intervista con IlDigitale",
+   "url": "https://www.ildigitale.it/news/referendum-matrimonio-egualitario-dantuono/",
+   "medium": "Interview",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-06-01",
+   "title": "Volt sense x Ita Expat Berlin",
+   "url": null,
+   "medium": "Workshop",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2025-06-01",
+   "title": "MOW mag | Reportage dentro Volt, il partito dei millennial che vuole ribaltare l’Europa (e pure l’Italia)",
+   "url": "https://mowmag.com/attualita/reportage-dentro-volt-il-partito-dei-millennial-che-vuole-ribaltare-l-europa-e-pure-l-italia-dalla-cannabis-al-matrimonio-egualitario-ci-hanno-spiegato-il-loro-manifesto-radicale",
+   "medium": "Interview",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2025-06-01",
+   "title": "Il Pride a Budapest visto da dentro, Francesca Romana D'Antuono: «È stato uno schiaffo a Orbán. Eravamo tantissimi e consapevoli della potenza di quello che stavamo facendo»",
+   "url": "https://www.vanityfair.it/article/pride-budapest-francesca-romana-dantuono-intervista",
+   "medium": "Interview",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-06-01",
+   "title": "D’Antuono (Volt): diritti LGBTIQ+ cartina tornasole della democrazia europea, più coraggio contro le derive autoritarie",
+   "url": "https://euractiv.it/section/politica/interview/dantuono-volt-diritti-lgbtiq-cartina-tornasole-della-democrazia-europea-piu-coraggio-contro-le-derive-autoritarie/",
+   "medium": "Interview",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-07-01",
+   "title": "Evento referendum Uguali, Monk Roma",
+   "url": null,
+   "medium": "Conference",
+   "topic": "LGBTQIA+"
+  },
+  {
+   "date": "2025-09-01",
+   "title": "Volt France 2025 General Assembly - Mulhouse",
+   "url": "https://www.linkedin.com/posts/thisisfrd_throwback-futuremadeineurope-activity-7378013107866132480-mQ-H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA0myG8BbGDKtHpACXhTwuH7VTfzOuiaxHY",
+   "medium": "Conference",
+   "topic": "VOLT"
+  },
+  {
+   "date": "2025-09-01",
+   "title": "Erasmus+ coalition Italy \"Eramus+: oltre il 2027\", Roma",
+   "url": "https://www.linkedin.com/posts/thisisfrd_leuropa-si-costruisce-insieme-o-non-share-7377303609736257560-LeFb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA0myG8BbGDKtHpACXhTwuH7VTfzOuiaxHY",
+   "medium": "Panel",
+   "topic": "EU"
+  },
+  {
+   "date": "2025-09-01",
+   "title": "Presentazione del libro  \"Contro i giganti\" di Davide D'Errico a San Gennaro Vesuviano",
+   "url": "https://www.linkedin.com/posts/thisisfrd_contro-i-giganti-un-titolo-una-missione-share-7377337771864174592-ZKLM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA0myG8BbGDKtHpACXhTwuH7VTfzOuiaxHY",
+   "medium": "Conference",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2025-10-01",
+   "title": "Non è un asilo, è una strategia di sviluppo economico - Informandoti",
+   "url": "https://www.informandoti.com/ultime-notizie/non-%C3%A8-un-asilo-%C3%A8-una-strategia-di-sviluppo-economico",
+   "medium": "Article",
+   "topic": "Education"
+  },
+  {
+   "date": "2025-12-01",
+   "title": "Zero fondi per l’infanzia: basterebbero 62 persone per colmare il vuoto della Finanziaria - Informandoti",
+   "url": "https://www.informandoti.com/ultime-notizie/zero-fondi-per-l-infanzia-basterebbero-62-persone-per-colmare-il-vuoto-della-finanziaria",
+   "medium": "Article",
+   "topic": "Education"
+  },
+  {
+   "date": "2026-01-01",
+   "title": "C'è bisogno di una costituente europea - Domani Editoriale",
+   "url": "https://drive.google.com/file/d/1kBrL3_qI6m8UkYndZu_XeAFHEj7RD5t3/view?usp=drive_link",
+   "medium": "Article",
+   "topic": "EU"
+  },
+  {
+   "date": "2026-01-01",
+   "title": "Clima, la manovra Meloni preferisce la logica del cerotto - Il Fatto Quotidiano",
+   "url": "https://www.ilfattoquotidiano.it/in-edicola/articoli/2026/01/14/clima-la-manovra-meloni-preferisce-la-logica-del-cerotto/8255335/",
+   "medium": "Article",
+   "topic": "Economics"
+  },
+  {
+   "date": "2026-02-01",
+   "title": "L’indipendenza della magistratura non è un privilegio di casta",
+   "url": "https://tuttieuropaventitrenta.eu/2026/02/19/indipendenza-della-magistratura-non-e-un-privilegio-di-casta/",
+   "medium": "Article",
+   "topic": "Elections/Democracy"
+  },
+  {
+   "date": "2026-05-01",
+   "title": "The Blueprint for a United States of Europe with Francesca Romana D'Antuono",
+   "url": "https://podcasts.apple.com/it/podcast/united-citizens-of-europe-podcast/id1531151257?i=1000765752941",
+   "medium": "Podcast",
+   "topic": "EU"
+  },
+  {
+   "date": "2026-05-01",
+   "title": "L'eredità e l’attualità di Altiero Spinelli a 40 anni dalla scomparsa - prima giornata",
+   "url": "https://www.radioradicale.it/scheda/789948/leredita-e-lattualita-di-altiero-spinelli-a-40-anni-dalla-scomparsa-prima-giornata",
+   "medium": "Conference",
+   "topic": "EU"
+  },
+  {
+   "date": "2026-06-01",
+   "title": "“Ero incinta, l’azienda insisteva per la maternità lunga: un’ingiustizia, mi sono licenziata. E ho rilanciato la mia carriera con Volt”",
+   "url": "https://www.ilrestodelcarlino.it/bologna/cronaca/francesca-brand-manager-volt-europa-maternita-licenziata-krrexouk",
+   "medium": "Interview",
+   "topic": "Women"
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Podcast con Hallisey e co",
+   "url": null,
+   "medium": null,
+   "topic": null
+  },
+  {
+   "date": "2026-06-01",
+   "title": "L'Esperimento Europeista di Volt",
+   "url": "https://pinguleaks.substack.com/p/lesperimento-europeista-di-volt",
+   "medium": "Interview",
+   "topic": "EU"
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Articoli Genova today",
+   "url": null,
+   "medium": null,
+   "topic": null
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Meeting with leader of Macedonian minority in Albania",
+   "url": "https://vesti.alfa.mk/so-polozhbata-i-predizviczite-so-koi-se-soochuvaat-makedonczite-vo-albani%d1%98a-ster%d1%98ovski-%d1%98a-zapoznal-romana-dantuono-kopretsedatel-na-volt-europa/",
+   "medium": "Article",
+   "topic": null
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Meeting with leader of Macedonian minority in Albania",
+   "url": "https://makedonium.net/?p=9456",
+   "medium": null,
+   "topic": null
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Meeting with leader of Macedonian minority in Albania",
+   "url": "https://vesnik-ilinden.com/so-polozhbata-i-predizvitsite-so-koi-se-soochuvaat-makedontsite-vo-albanija-sterjovski-ja-zapoznal-romana-d-antuono-kopretsedatel-na-volt-europa/",
+   "medium": null,
+   "topic": null
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Meeting with leader of Macedonian minority in Albania",
+   "url": "https://mia.mk/story/%D1%81%D0%BE-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B1%D0%B0%D1%82%D0%B0-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B2%D0%B8%D1%86%D0%B8%D1%82%D0%B5-%D1%81%D0%BE-%D0%BA%D0%BE%D0%B8-%D1%81%D0%B5-%D1%81%D0%BE%D0%BE%D1%87%D1%83%D0%B2%D0%B0%D0%B0%D1%82-%D0%BC%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%86%D0%B8%D1%82%D0%B5-%D0%B2%D0%BE-%D0%B0%D0%BB%D0%B1%D0%B0%D0%BD%D0%B8%D1%98%D0%B0-%D1%81%D1%82%D0%B5%D1%80%D1%98%D0%BE%D0%B2%D1%81%D0%BA%D0%B8-%D1%98%D0%B0-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B7%D0%BD%D0%B0%D0%BB-%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0-%D0%B4%D0%B0%D0%BD%D1%82%D1%83%D0%BE%D0%BD%D0%BE-%D0%BA%D0%BE%D0%BF%D1%80%D0%B5%D1%82%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB-%D0%BD%D0%B0-volt-europa",
+   "medium": null,
+   "topic": null
+  }
+ ]
+}

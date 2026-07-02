@@ -1,0 +1,92 @@
+{
+  "_HOW_TO_EDIT": "This is the ONE file to update as the campaign evolves. No coding needed: edit text between quotes, save, push. Every section below is labelled. Empty string \"\" = feature hidden on the site. When FRD announces her candidacy, change mode from 'personal' to 'campaign' and the homepage switches to campaign mode automatically.",
+
+  "mode": "personal",
+
+  "analytics": {
+    "_help": "Free visitor stats. Create account at goatcounter.com (2 min), pick a code like 'frdantuono', paste it below. Leave empty = no analytics.",
+    "goatcounterCode": ""
+  },
+
+  "newsletter": {
+    "_help": "Signups currently go to Netlify Forms (see dashboard > Forms > newsletter). When you create the free Brevo account, paste the Brevo form URL below and the box switches automatically. Instructions in LAUNCH_CHECKLIST.md.",
+    "brevoFormAction": ""
+  },
+
+  "video": {
+    "_help": "A short 'who I am' video for the homepage. Paste the YouTube ID (the part after v= in the URL). Empty = section hidden.",
+    "youtubeId": "",
+    "title": { "it": "Chi sono, in due minuti", "en": "Who I am, in two minutes" }
+  },
+
+  "campaignMode": {
+    "_help": "Used ONLY when mode='campaign'. The homepage hero swaps to this message. PLACEHOLDER — to be written with FRD before the announcement.",
+    "headline": { "it": "PLACEHOLDER — la promessa concreta della candidatura", "en": "PLACEHOLDER — the concrete promise of the candidacy" },
+    "lead": { "it": "PLACEHOLDER — due frasi: per chi si candida e cosa cambierà.", "en": "PLACEHOLDER — two sentences: who she runs for and what will change." },
+    "ctaLabel": { "it": "Unisciti alla campagna", "en": "Join the campaign" }
+  },
+
+  "pressStrip": {
+    "_help": "Outlets shown as a 'they talk about me' strip on the homepage. Text only, no logo files needed.",
+    "outlets": ["Politico Europe", "La7 · DiMartedì", "Vanity Fair", "La Stampa", "Sky TG24", "Wired", "Euractiv", "Il Fatto Quotidiano"]
+  },
+
+  "featuredPress": {
+    "_help": "Real headlines about FRD, shown on the homepage press section. Add/remove freely; 4-6 is ideal. All entries below are real, from the Archive & press spreadsheet.",
+    "items": [
+      {
+        "outlet": "Politico Europe",
+        "date": "2025-01",
+        "title": { "it": "Meloni's Albanian migrant detention centers are now ghost towns", "en": "Meloni's Albanian migrant detention centers are now ghost towns" },
+        "url": "https://www.politico.eu/article/giorgia-meloni-italy-albania-migrant-detention-center-ghost-town/"
+      },
+      {
+        "outlet": "Vanity Fair",
+        "date": "2025-06",
+        "title": { "it": "Il Pride a Budapest visto da dentro", "en": "Budapest Pride, seen from the inside" },
+        "url": "https://www.vanityfair.it/article/pride-budapest-francesca-romana-dantuono"
+      },
+      {
+        "outlet": "La Stampa",
+        "date": "2025-05",
+        "title": { "it": "Spunta il referendum che avvicina le unioni civili al matrimonio", "en": "The referendum bringing civil unions closer to marriage" },
+        "url": "https://www.lastampa.it/rubriche/diversity-editor/2025/05/15/news/referendum_unioni_civili_matrimonio_egualitario-15142280/"
+      },
+      {
+        "outlet": "Euractiv Italia",
+        "date": "2025-04",
+        "title": { "it": "Un referendum per eliminare le disparità tra unioni civili e matrimonio", "en": "A referendum to end the gap between civil unions and marriage" },
+        "url": "https://euractiv.it/section/politica/interview/dantuono-volt-europa-un-referendum-per-eliminare-le-disparita-tra-unioni-civili-e-matrimonio/"
+      },
+      {
+        "outlet": "Il Resto del Carlino",
+        "date": "2026-06",
+        "title": { "it": "\"Ero incinta, l'azienda insisteva per la maternità lunga: mi sono licenziata. E ho rilanciato la mia carriera con Volt\"", "en": "\"I was pregnant, the company pushed for long maternity leave: I quit. And relaunched my career with Volt\"" },
+        "url": "https://www.ilrestodelcarlino.it/bologna/cronaca/francesca-brand-manager-volt-europa-maternita-licenziata-krrexouk"
+      },
+      {
+        "outlet": "MOW Mag",
+        "date": "2025-06",
+        "title": { "it": "Reportage dentro Volt, il partito dei millennial che vuole ribaltare l'Europa", "en": "Inside Volt, the millennial party that wants to shake up Europe" },
+        "url": "https://mowmag.com/attualita/reportage-dentro-volt-il-partito-dei-millennial-che-vuole-ribaltare-leuropa"
+      }
+    ]
+  },
+
+  "endorsements": {
+    "_help": "PLACEHOLDER — quotes of support from public figures/organisations. Fill in when the campaign starts. photo: filename in public/photos/ or empty.",
+    "items": [
+      { "name": "PLACEHOLDER Nome Cognome", "role": { "it": "Ruolo, organizzazione", "en": "Role, organisation" }, "quote": { "it": "Citazione di sostegno.", "en": "Endorsement quote." }, "photo": "" }
+    ]
+  },
+
+  "support": {
+    "_help": "Links for the Partecipa/Support page. VERIFY the Volt links with FRD; donate stays empty until the campaign fundraising channel exists (Italian political-funding rules apply).",
+    "joinVoltUrl": "https://www.voltitalia.org",
+    "volunteerUrl": "",
+    "donateUrl": "",
+    "newsletterAnchor": "#newsletter",
+    "instagramUrl": "https://www.instagram.com/francescaromana_dantuono/",
+    "linkedinUrl": "https://www.linkedin.com/in/thisisfrd/"
+  }
+}
