@@ -16,4 +16,5 @@ export const timeline: Milestone[] = [
   { year: '2021', it: 'Eletta co-presidente di Volt Europa. Metto in pausa la carriera per dedicarmi a tempo pieno all’attivismo politico.', en: 'Elected co-president of Volt Europa. Paused my professional career to focus full-time on political activism.' },
   { year: '2023', it: 'Rieletta co-presidente di Volt Europa.', en: 'Re-elected co-president of Volt Europa.' },
   { year: '2024', it: 'Guido la campagna di Volt Europa per le elezioni del Parlamento europeo.', en: 'Led the Volt Europa campaign for the European Parliament elections.' },
+  { year: '2026', it: 'Finisce il mio mandato da co-presidente di Volt Europa. Divento portavoce dell’ICE Right to Housing, registrata dalla Commissione europea il 17 luglio.', en: 'My term as co-president of Volt Europa ends. I become spokesperson for the Right to Housing ECI, registered by the European Commission on 17 July.' },
 ];

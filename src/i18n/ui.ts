@@ -20,7 +20,7 @@ export const ui = {
     'nav.menu': 'Menu',
     'nav.close': 'Chiudi',
 
-    'home.hero.kicker': 'Co-presidente di Volt Europa',
+    'home.hero.kicker': 'Già co-presidente di Volt Europa · Portavoce dell’ICE Right to Housing',
     'home.hero.title': 'Costruire l’Europa che ancora non c’è.',
     'home.hero.lead': 'Sono Francesca Romana D’Antuono. Faccio politica europea perché credo che le grandi sfide del nostro tempo — democrazia, clima, giustizia sociale — si vincano insieme, oltre i confini nazionali.',
     'home.hero.cta.primary': 'Conoscimi',
@@ -34,7 +34,7 @@ export const ui = {
     'home.articles.title': 'Ultimi articoli',
     'home.articles.cta': 'Tutti gli articoli',
     'home.cta.title': 'Restiamo in contatto',
-    'home.cta.body': 'Per scrivere insieme, invitarmi a un evento, o seguire da vicino il lavoro di Volt Europa.',
+    'home.cta.body': 'Per scrivere insieme, invitarmi a un evento o seguire il mio lavoro.',
     'home.cta.button': 'Scrivimi',
 
     'about.title': 'Chi sono',
@@ -131,7 +131,7 @@ export const ui = {
     'nav.menu': 'Menu',
     'nav.close': 'Close',
 
-    'home.hero.kicker': 'Co-president of Volt Europa',
+    'home.hero.kicker': 'Former co-president of Volt Europa · Spokesperson for the Right to Housing ECI',
     'home.hero.title': 'Building the Europe that doesn’t exist yet.',
     'home.hero.lead': 'I’m Francesca Romana D’Antuono. I work in European politics because the great challenges of our time — democracy, climate, social justice — can only be won together, beyond national borders.',
     'home.hero.cta.primary': 'About me',
@@ -145,7 +145,7 @@ export const ui = {
     'home.articles.title': 'Latest articles',
     'home.articles.cta': 'All articles',
     'home.cta.title': 'Let’s stay in touch',
-    'home.cta.body': 'To write together, invite me to an event, or follow Volt Europa’s work up close.',
+    'home.cta.body': 'To write together, invite me to an event, or follow my work.',
     'home.cta.button': 'Get in touch',
 
     'about.title': 'About me',
